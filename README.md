@@ -141,9 +141,8 @@ export default [
 
 #### ブロックアイコンとメニューアイコンの作成
 
-書式: 40x40, SVG
-↓
-base64形式に変換
+* 書式: 40x40, SVG
+* base64形式に変換
 [Base64エンコードツール](https://2003kaito.com/tools/Base64_encode)
 
 
