@@ -24,17 +24,25 @@ $ git clone --depth 1 git@github.com:ytani01/scratch-gui
 ```
 
 
+### npm のインストール
+
+```bash
+$ sudo npm install -g n
+$ sudo n stable
+$ sudo n
+```
+
 ### 依存関係の設定
 
 
 ```bash
-($ sudo npm install -g npm)
-
 $ cd scratch-vm
 $ npm install
 ($ npm audit fix)
 ($ npm audit fix --force)
 $ sudo npm link
+($ npm audit fix)
+($ npm audit fix --force)
 
 $ cd ../scratch-gui
 $ npm install
