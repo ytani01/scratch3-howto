@@ -1,7 +1,7 @@
 # Scratch3 拡張機能
 
 ## URLs
-* [公開ページ](https://ytani01.github.io/scratch-gui/)
+* [Scratchページ](https://ytani01.github.io/scratch-gui/)
 * [scratch-vm](https://github.com/ytani01/scratch-vm/)
 * [scratch-gui](https://github.com/ytani01/scratch-gui/)
 
