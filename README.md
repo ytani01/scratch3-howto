@@ -58,8 +58,9 @@ $ npm start
 ```
 
 ブラウザで以下にアクセス。
-https://localhost:8601 (HTTPS)
-http://localhost:8601 (HTTP)
+
+* https://localhost:8601 (HTTPS)
+* http://localhost:8601 (HTTP)
 
 
 ### github pages (github.io) に公開
