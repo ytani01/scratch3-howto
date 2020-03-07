@@ -277,6 +277,8 @@ https://ja.scratch-wiki.info/wiki/Scratch_3.0%E3%81%AE%E6%8B%A1%E5%BC%B5%E6%A9%9
 
 * [PaPeRo i をScratch3.0で制御する-その1-接続・発話・ボタン](https://smilerobo.com/papero/tips_scratch30_connect/)
 
+* [websockets](https://websockets.readthedocs.io/)
+
 ## Memo
 * sudo npm install -g xxx コマンド の、 ‘sudo’ は、推奨されないようです。[2019]
 https://tech-for.com/2019/05/05/using-sudo-with-npm-install-may-not-be-recommended/
