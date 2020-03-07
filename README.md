@@ -58,7 +58,8 @@ $ npm start
 ```
 
 ブラウザで以下にアクセス。
-https://localhost:8601
+https://localhost:8601 (HTTPS)
+http://localhost:8601 (HTTP)
 
 
 ### github pages (github.io) に公開
@@ -278,4 +279,3 @@ https://ja.scratch-wiki.info/wiki/Scratch_3.0%E3%81%AE%E6%8B%A1%E5%BC%B5%E6%A9%9
 ## Memo
 * sudo npm install -g xxx コマンド の、 ‘sudo’ は、推奨されないようです。[2019]
 https://tech-for.com/2019/05/05/using-sudo-with-npm-install-may-not-be-recommended/
-
