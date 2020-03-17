@@ -1,0 +1,10 @@
+--- extension-manager.js.orig	2020-03-17 15:46:34.153789100 +0900
++++ extension-manager.js	2020-03-17 12:52:04.106790600 +0900
+@@ -13,6 +13,7 @@
+     // but serves as a reference for loading core blocks as extensions.
+     coreExample: () => require('../blocks/scratch3_core_example'),
+     // These are the non-core built-in extensions.
++    foo: () => require('../extensions/scratch3_foo'),
+     pen: () => require('../extensions/scratch3_pen'),
+     wedo2: () => require('../extensions/scratch3_wedo2'),
+     music: () => require('../extensions/scratch3_music'),

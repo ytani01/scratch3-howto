@@ -1,0 +1,36 @@
+--- index.jsx.orig	2020-03-17 15:47:04.718277200 +0900
++++ index.jsx	2020-03-17 12:49:53.761472300 +0900
+@@ -46,10 +46,33 @@
+ import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
+ import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
+ 
++import fooImage from './foo/foo.png';
++import fooInsetImage from './foo/foo-small.png';
++
+ export default [
+     {
+         name: (
+             <FormattedMessage
++                defaultMessage="Foo Blocks"
++                description="Foo name"
++                id="gui.extension.foo.name"
++            />
++        ),
++        extensionId: 'foo',
++        iconURL: fooImage,
++        insetIconURL: fooInsetImage,
++        description: (
++            <FormattedMessage
++                defaultMessage="Foo description"
++                description="Description for the 'Foo' extension"
++                id="gui.extension.foo.description"
++            />
++        ),
++        featured: true
++    },
++    {
++        name: (
++            <FormattedMessage
+                 defaultMessage="Music"
+                 description="Name for the 'Music' extension"
+                 id="gui.extension.music.name"
