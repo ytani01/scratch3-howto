@@ -274,9 +274,16 @@ $ npm start
 ```bash
 $ cd ../scratch-vm
 $ git add . && git commit -am update && git push
+$ npm install
+($ npm audit fix)
+($ npm audit fix --fource)
 
 $ cd ../scratch-gui
 $ git add . && git commit -am update && git push
+$ npm install
+($ npm audit fix)
+($ npm audit fix --fource)
+$ npm link scratch-vm
 
 ($ cd ../scratch-gui)
 $ npm run build
@@ -286,12 +293,20 @@ $ npm run build
 任意のWebサーバーで公開可能
 
 
+### 確認事項
+
+* github pagesに反映する前に、
+スタティックページに変更が反映されていることを確認
+
+
 ### github pagesに反映
 
 (スタティックページ作成後)
 ```bash
 $ npm run deploy
 ```
+
+* 反映されるまで、しばらく時間がかかる
 
 
 ## 参考
