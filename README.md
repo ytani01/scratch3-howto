@@ -264,7 +264,8 @@ $ npm start
 ブラウザでは自動的に再読み込みがおこなれる。<br />
 これが動作しない場合は、``npm link``が機能していない。
 
-* ``Uncaught (in promise) DOMException: NetworkError``<br />
+* ブラウザのコンソール:
+``Uncaught (in promise) DOMException: NetworkError``<br />
 拡張機能がvmに認識されていない。
 
 
