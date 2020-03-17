@@ -81,10 +81,8 @@ $ cd ../scratch-gui
 ($ npm install)
 ($ npm audit fix)
 ($ npm audit fix --force)
-$ npm run build
-### ``build``ディレクトリに静的なページを作成
-$ npm run deploy
-### 最初はかなり時間がかかる)
+$ npm run build  ### ``build``ディレクトリに静的なページを作成
+$ npm run deploy  ### 最初はかなり時間がかかる)
 ```
 
 (注意) 実行後、サイトに反映されるまで時間がかかる。
@@ -290,6 +288,7 @@ $ npm run build
 
 ### github pagesに反映
 
+(スタティックページ作成後)
 ```bash
 $ npm run deploy
 ```
