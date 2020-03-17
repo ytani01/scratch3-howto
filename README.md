@@ -284,6 +284,9 @@ $ git add . && git commit -am update && git push
 $ npm run build
 ```
 
+* ``build``ディレクトリ下をコピーすれば、
+任意のWebサーバーで公開可能
+
 
 ### github pagesに反映
 
