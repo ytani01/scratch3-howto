@@ -264,8 +264,13 @@ $ npm start
 ブラウザでは自動的に再読み込みがおこなれる。<br />
 これが動作しない場合は、``npm link``が機能していない。
 
+* ``Uncaught (in promise) DOMException: NetworkError``<br />
+拡張機能がvmに認識されていない。
+
 
 ## github pages に反映
+
+### スタティックページの作成
 
 ```bash
 $ cd ../scratch-vm
@@ -274,7 +279,14 @@ $ git add . && git commit -am update && git push
 $ cd ../scratch-gui
 $ git add . && git commit -am update && git push
 
+($ cd ../scratch-gui)
 $ npm run build
+```
+
+
+### github pagesに反映
+
+```bash
 $ npm run deploy
 ```
 
