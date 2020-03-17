@@ -48,6 +48,8 @@ $ npm install
 ($ npm audit fix)
 ($ npm audit fix --force)
 $ npm link scratch-vm
+
+($ npm update)
 ```
 
 
