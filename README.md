@@ -311,6 +311,8 @@ $ npm run deploy
 
 ## 参考
 
+* [mbit-more](https://github.com/yokobond/scratch-microbit-more)
+
 * Scratch 3.0の拡張機能を作ってみよう
 https://ja.scratch-wiki.info/wiki/Scratch_3.0%E3%81%AE%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86
 
