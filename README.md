@@ -318,6 +318,8 @@ https://ja.scratch-wiki.info/wiki/Scratch_3.0%E3%81%AE%E6%8B%A1%E5%BC%B5%E6%A9%9
 
 * [websockets](https://websockets.readthedocs.io/)
 
+* [Online UUID Generator](https://www.uuidgenerator.net/version1)
+
 ## Memo
 * sudo npm install -g xxx コマンド の、 ‘sudo’ は、推奨されないようです。[2019]
 https://tech-for.com/2019/05/05/using-sudo-with-npm-install-may-not-be-recommended/
