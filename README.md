@@ -99,29 +99,27 @@ https://ytani01.github.io/scatch-gui/
 
 #### 画像作成
 
-* 背景(foo.png): 600x372, PNG
-* アイコン(foo-small.png): 80x80, PNG,SVG?
+* 拡張メニュー背景(foo.png): 600x372, PNG
+* 拡張メニューアイコン(foo-small.png): 80x80, PNG,SVG?
+* 接続用アイコン: 80x80?, PNG,SVG?
+* 接続用小アイコン: 40x40?, PNG,SVG?
 * 保存ディレクトリ: scratch-gui/src/lib/libraries/extensions/foo/
 
 
 #### scratch-gui/src/lib/libraries/extensions/index.jsx に追加
 
-```
+```javascript
 import fooImage from './foo/foo.png';
-import fooInsetImage from './foo/foo-small.png';
+import fooInsetImage from './foo/OttoPi-80x80.png';
+import fooConnectionIconURL from './foo/OttoPi-80x80.png';
+import fooConnectionSmallIconURL from './foo/OttoPi-40x40.png';
 
 // 略
 
-export default [
     {
-        name: (
-            <FormattedMessage
-                defaultMessage="Foo name"
-                description="Name for the 'Foo' extension"
-                id="gui.extension.foo.name"
-            />
-        ),
+        name: 'Foo',
         extensionId: 'foo',
+        collaborator: 'collaborator',
         iconURL: fooImage,
         insetIconURL: fooInsetImage,
         description: (
@@ -131,8 +129,24 @@ export default [
                 id="gui.extension.foo.description"
             />
         ),
-        featured: true
+        featured: true,
+        disabled: false,
+        bluetoothRequired: true,
+        internetConnectionRequired: true,
+        launchPeripheralConnectionFlow: true,
+        useAutoScan: false,
+        connectionIconURL: fooConnectionIconURL,
+        connectionSmallIconURL: fooConnectionSmallIconURL,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting"
+                description="Message to help people connect to their robot."
+                id="gui.extension.foo.connectingMessage"
+            />
+        ),
+        helpLink: ''
     },
+
 // 略
 ```
 
