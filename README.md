@@ -5,8 +5,9 @@
   + [https](https://ytani01.github.io/scratch-gui/)
   + [http](http://www.ytani.net:8080/scratch/)
   + [localhost](http://localhost:8601/)
-* [scratch-vm](https://github.com/ytani01/scratch-vm/)
-* [scratch-gui](https://github.com/ytani01/scratch-gui/)
+* ソースコード
+  + [scratch-vm](https://github.com/ytani01/scratch-vm/)
+  + [scratch-gui](https://github.com/ytani01/scratch-gui/)
 
 ## 開発環境整備・github pagesで公開
 
