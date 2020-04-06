@@ -2,7 +2,10 @@
 
 ## URLs
 * [Scratchページ(https)](https://ytani01.github.io/scratch-gui/)
+  + a
+  + b
 * [Scratchページ(http)](http://www.ytani.net:8080/scratch/)
+* [Scratchページ(localhost)](http://localhost:8601/)
 * [scratch-vm](https://github.com/ytani01/scratch-vm/)
 * [scratch-gui](https://github.com/ytani01/scratch-gui/)
 
