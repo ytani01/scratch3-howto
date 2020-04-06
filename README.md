@@ -64,7 +64,6 @@ $ npm start
 
 ブラウザで以下にアクセス。
 
-* https://localhost:8601 (HTTPS)
 * http://localhost:8601 (HTTP)
 
 
